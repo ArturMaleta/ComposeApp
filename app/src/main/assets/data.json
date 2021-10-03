@@ -1,0 +1,134 @@
+[
+  {
+    "product_type": "food",
+    "upc": "709275481315",
+    "product_id": 320664,
+    "name": "Bake at Home Organic Artisan Ciabatta Rolls, Artisan",
+    "product_size": "10 oz",
+    "brand_id": 6877,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/709275481315-BakeatHomeOrganicArtisanCiabattaRolls%2CArtisan"
+  },
+  {
+    "product_type": "food",
+    "upc": "079893118918",
+    "product_id": 23294,
+    "name": "O Organics Organic Ciabatta Rolls",
+    "product_size": "10 oz",
+    "image_url": "https://phorcys-static.ewg.org/brand_logo/logos/8578/medium.png?1386802335",
+    "image_source": "Brand Logo",
+    "brand_id": 8578,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/079893118918-OOrganicsOrganicCiabattaRolls"
+  },
+  {
+    "product_type": "food",
+    "upc": "657082030564",
+    "product_id": 365490,
+    "name": "Izzio Artisan Bakery Ciabattini Italian Ciabatta Rolls, Ciabattini",
+    "product_size": "12 oz",
+    "brand_id": 15672,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/657082030564-IzzioArtisanBakeryCiabattiniItalianCiabattaRolls%2CCiabattini"
+  },
+  {
+    "product_type": "food",
+    "upc": "628110137029",
+    "product_id": 421652,
+    "name": "August Artisan Bakery 6\" Ciabatta Rolls, Ciabatta",
+    "product_size": "15.5 oz",
+    "image_url": "https://phorcys-static.ewg.org/admin/missing_product_large-d88778f4687701eb9c009e83e794ce25192d2278e8339d1cfc95e69943a840b6.jpg",
+    "image_source": "Missing Image",
+    "brand_id": null,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/628110137029-AugustArtisanBakery6%22CiabattaRolls%2CCiabatta"
+  },
+  {
+    "product_type": "food",
+    "upc": "036800473089",
+    "product_id": 394384,
+    "name": "Full Circle Market Rustic Ciabatta Loaf, Rustic Ciabatta",
+    "product_size": "12.5 oz",
+    "image_url": "https://phorcys-static.ewg.org/brand_logo/logos/8785/medium.png?1387312957",
+    "image_source": "Brand Logo",
+    "brand_id": 8785,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/036800473089-FullCircleMarketRusticCiabattaLoaf%2CRusticCiabatta"
+  },
+  {
+    "product_type": "food",
+    "upc": "657082026321",
+    "product_id": 197014,
+    "name": "Izzio Artisan Bakery Garlic Ciabatta",
+    "product_size": "14 oz",
+    "brand_id": 15672,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/657082026321-IzzioArtisanBakeryGarlicCiabatta"
+  },
+  {
+    "product_type": "food",
+    "upc": "628553060267",
+    "product_id": 356117,
+    "name": "River Road Bakehouse Ciabatta White Buns",
+    "product_size": "14.1 oz",
+    "image_url": "https://phorcys-static.ewg.org/brand_logo/logos/9480/medium.png?1416948286",
+    "image_source": "Brand Logo",
+    "brand_id": 9480,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/628553060267-RiverRoadBakehouseCiabattaWhiteBuns"
+  },
+  {
+    "product_type": "food",
+    "upc": "021130128747",
+    "product_id": 390350,
+    "name": "Signature Select Artisan Ciabatta Toscana Bread",
+    "product_size": "15.5 oz",
+    "brand_id": 14671,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/021130128747-SignatureSelectArtisanCiabattaToscanaBread"
+  },
+  {
+    "product_type": "food",
+    "upc": "085239430217",
+    "product_id": 259699,
+    "name": "Archer Farms Ciabatta",
+    "product_size": "14 OZ",
+    "image_url": "https://phorcys-static.ewg.org/brand_logo/logos/8753/medium.png?1387156201",
+    "image_source": "Brand Logo",
+    "brand_id": 8753,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/085239430217-ArcherFarmsCiabatta"
+  },
+  {
+    "product_type": "food",
+    "upc": "085239131756",
+    "product_id": 259717,
+    "name": "Archer Farms Take \u0026 Bake Ciabatta",
+    "product_size": "14 OZ",
+    "image_url": "https://phorcys-static.ewg.org/brand_logo/logos/8753/medium.png?1387156201",
+    "image_source": "Brand Logo",
+    "brand_id": 8753,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/085239131756-ArcherFarmsTake%26BakeCiabatta"
+  },
+  {
+    "product_type": "food",
+    "upc": "657522750267",
+    "product_id": 432698,
+    "name": "Ecce Panis Ciabatta Gourmet Artisan Breads Rolls, Ciabatta Rolls",
+    "product_size": "21 OZ",
+    "brand_id": 16095,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/657522750267-EccePanisCiabattaGourmetArtisanBreadsRolls%2CCiabattaRolls"
+  },
+  {
+    "product_type": "food",
+    "upc": "628553060137",
+    "product_id": 204412,
+    "name": "La Baguetterie Ciabatta Bread",
+    "product_size": "14.0 oz",
+    "brand_id": 13134,
+    "discontinued": false,
+    "web_url": "http://www.ewg.org/foodscores/products/628553060137-LaBaguetterieCiabattaBread"
+  }
+]

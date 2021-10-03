@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Compose App Yo!</string>
+    <string name="empty_list">Unfortunately,\n list is empty. :(</string>
+</resources>

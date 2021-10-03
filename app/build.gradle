@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion toolVersions.android.compileSdk
+    buildToolsVersion toolVersions.android.buildTools
+
+    defaultConfig {
+        applicationId "com.example.composeapp"
+        minSdkVersion toolVersions.android.minSdk
+        targetSdkVersion toolVersions.android.targetSdk
+        versionCode (toolVersions.versions.appVersionMajor * 100 + toolVersions.versions.appVersionMinor * 10 + toolVersions.versions.appVersionBuild)
+        versionName "${toolVersions.versions.appVersionMajor}.${toolVersions.versions.appVersionMinor}(${toolVersions.versions.appVersionBuild})"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        compose true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion toolVersions.android.kotlinCompilerExtensionVersion
+        kotlinCompilerVersion toolVersions.android.kotlinCompiler
+    }
+    kotlinOptions {
+        jvmTarget = toolVersions.kotlinJvmTarget
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:${toolVersions.android.kotlin}"
+    implementation "androidx.core:core-ktx:${libVersions.core.ktx}"
+    implementation "androidx.appcompat:appcompat:${libVersions.android.appCompat}"
+    implementation "com.google.android.material:material:${libVersions.android.material}"
+    implementation "androidx.fragment:fragment-ktx:${libVersions.android.fragmentKtx}"
+
+    //Compose libs
+    implementation "androidx.compose.compiler:compiler:${libVersions.compose.compiler}"
+    implementation "androidx.compose.ui:ui:${libVersions.compose.ui}"
+    implementation "androidx.compose.ui:ui-tooling:${libVersions.compose.uiTooling}"
+    implementation "androidx.compose.foundation:foundation:${libVersions.compose.foundation}"
+    implementation "androidx.compose.material:material:${libVersions.compose.material}"
+    implementation "androidx.compose.material:material-icons-core:${libVersions.compose.materialIconsCore}"
+    implementation "androidx.compose.material:material-icons-extended:${libVersions.compose.materialIconsExtended}"
+    implementation "androidx.activity:activity-compose:${libVersions.compose.activityCompose}"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:${libVersions.compose.lifecycleViewmodelCompose}"
+
+    // Glide
+    implementation "com.google.accompanist:accompanist-glide:${libVersions.media.accompanistGlide}"
+
+    // GSON
+    implementation "com.google.code.gson:gson:${libVersions.service.gson}"
+
+    // Koin
+    implementation "org.koin:koin-androidx-viewmodel:${libVersions.di.koin}"
+    implementation "org.koin:koin-android:${libVersions.di.koin}"
+
+    testImplementation 'junit:junit:4.13.2'
+}

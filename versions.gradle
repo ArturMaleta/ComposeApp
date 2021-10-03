@@ -1,0 +1,54 @@
+ext {
+    toolVersions = [
+            wrapper         : "5.1.1",
+            kotlinJvmTarget : "1.8",
+            android         : [
+                    compileSdk                      : 30,
+                    targetSdk                       : 30,
+                    minSdk                          : 24,
+                    gradlePlugin                    : "4.2.2",
+                    buildTools                      : "30.0.3",
+                    kotlin                          : "1.5.10",
+                    kotlinCompiler                  : "1.5.10",
+                    kotlinCompilerExtensionVersion  : "1.0.0-rc01"
+            ],
+            versions : [
+                    appVersionMajor : 1,
+                    appVersionMinor : 0,
+                    appVersionBuild : 1
+            ]
+    ]
+    libVersions = [
+            core                 : [
+                    ktx : "1.6.0"
+            ],
+            di                  : [
+                    koin: "2.0.1"
+            ],
+            compose               : [
+                    compiler                    : "1.0.0",
+                    ui                          : "1.0.0",
+                    uiTooling                   : "1.0.0",
+                    foundation                  : "1.0.0",
+                    material                    : "1.0.0",
+                    materialIconsCore           : "1.0.0",
+                    materialIconsExtended       : "1.0.0",
+                    activityCompose             : "1.3.0",
+                    lifecycleViewmodelCompose   : "1.0.0-alpha07"
+            ],
+            android              : [
+                    appCompat   : "1.3.1",
+                    material    : "1.4.0",
+                    fragmentKtx : "1.1.0",
+            ],
+            service             : [
+                    gson : "2.8.6"
+            ],
+            media               : [
+                    accompanistGlide : "0.10.0"
+            ],
+            test                 : [
+                    junit       : "4.13.2",
+            ],
+    ]
+}
